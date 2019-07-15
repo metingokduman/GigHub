@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 20px;
 }
 
@@ -22,7 +22,8 @@ select,
 textarea {
     max-width: 280px;
 }
-span.field-validation-error {
+
+span .field-validation-error {
     color: red;
     font-weight: 700;
 }
@@ -32,46 +33,90 @@ span.field-validation-error {
     border-color: #00FFFF;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+    .navbar-inverse .navbar-nav > li > a {
         color: #FF4500;
-}
+    }
 
-.navbar-inverse .navbar-brand {
+    .navbar-inverse .navbar-brand {
         color: #FF4500;
+    }
 
-}
-
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
         background-color: #0dadad;
-}
+    }
+
 .navbar-brand {
- 
-    font-weight:700;
+    font-weight: 700;
 }
 
-.dropdown-menu{
-    box-shadow:none;
-    -webkit-box-shadow:none;
+.dropdown-menu {
+    box-shadow: none;
+    
 }
 
 .form-group {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-body{
-    font-size:17px;
+
+body {
+    font-size: 17px;
 }
-.form-control{
-    font-size:17px;
-    padding:20px 15px;
-    border-radius:9px;
+
+.form-control {
+    font-size: 17px;
+    padding: 20px 15px;
+    border-radius: 9px;
 }
-.form-control:focus{
-    border-color:#2196f3;
-    box-shadow:none;
-    -webkit-box-shadow:none;
+
+    .form-control:focus {
+        border-color: #2196f3;
+        box-shadow: none;
+     
+    }
+
+.btn {
+    font-size: 17px;
+    padding: 7px 20px;
+    border-radius: 9px;
 }
-.btn{
-    font-size:17px;
-    padding:7px 20px;
-    border-radius:9px;
+
+/* Page-level styles */
+.gigs {
+    list-style: none;
 }
+.gigs > li {
+    position:relative;
+    margin-bottom:30px;
+}
+.gigs > li .date{
+    background-color:red;
+    color:white;
+    text-align:center;
+    width:60px;
+    border-radius:8px;
+}
+.gigs > li .date .month {
+      text-transform:uppercase;
+      font-size:14px;
+      font-weight:bold;
+      padding:2px 6px;
+    }
+.gigs > li .date .day {
+        background:#f7f7f7;
+        color:#333;
+        font-size:20px;
+        padding:6px 12px;
+    }
+.gigs > li .details {
+    position:absolute;
+    top:0;
+    left:70px;
+}
+
+    .gigs > li .details .artist {
+        font-weight:bold;
+        display:block;
+    }
+    .gigs > li .details .genre{
+        font-size:15px;
+    }
