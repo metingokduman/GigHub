@@ -22,13 +22,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA96B9EB-42E0-40EC-9AC8-2194AD4BA814}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/enternasyonal
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = GigHubWithM\\GigHubWithM.csproj
-		SccProjectName1 = GigHubWithM
-		SccLocalPath1 = GigHubWithM
-	EndGlobalSection
 EndGlobal
