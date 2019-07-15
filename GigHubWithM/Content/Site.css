@@ -27,25 +27,6 @@ span .field-validation-error {
     color: red;
     font-weight: 700;
 }
-
-.voffset{
-    margin-top:2px;
-}
-.voffset1 {
-    margin-top: 5px;
-}
-.voffset2 {
-    margin-top: 10px;
-}
-.voffset3 {
-    margin-top: 20px;
-}
-.voffset4 {
-    margin-top: 40px;
-}
-.voffset5 {
-    margin-top: 80px;
-}
 /*Bootstrap Overrides*/
 .navbar-inverse {
     background-color: #00FFFF;
